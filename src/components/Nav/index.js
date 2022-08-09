@@ -17,7 +17,7 @@ function Nav() {
     <Sidebar showSidebar={showSidebar}/>
       <header className="flex justify-between">
         <div className="flex z-30 justify-between items-center w-full m-5">
-            <h1 className="font-bebas text-3xl text-orange-400">R.P.</h1>
+            <h1 className="font-readex text-3xl text-orange-400">RP</h1>
             <Hamburger color="#fb923c" toggled={showSidebar} toggle={setShowSidebar}/>
         </div>
         <nav className="text-stone-400 hidden">

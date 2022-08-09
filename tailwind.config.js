@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        bebas: "'Bebas Neue'"
+        readex: "'Readex Pro'",
+        fig: "'Figtree'"
       },
     },
   },
