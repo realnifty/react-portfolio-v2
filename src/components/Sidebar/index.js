@@ -11,7 +11,7 @@ function Sidebar(props) {
     ];
     return (
         <>
-            <aside className={` ${showSidebar ? 'translate-x-0' : 'translate-x-full'} ease-in-out duration-200 top-0 right-0 fixed w-3/5 text-center text-stone-400 bg-stone-800 h-screen`}>
+            <aside className={` ${showSidebar ? 'translate-x-0' : 'translate-x-full'} ease-in-out duration-200 top-0 right-0 fixed w-3/5 text-center text-stone-400 bg-stone-800 h-screen font-fig`}>
                 <ul className="mt-20 mb-5">
                 {sections.map((section) => (
                     <li key={section.name} className="my-3 text-lg">
