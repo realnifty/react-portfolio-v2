@@ -1,12 +1,14 @@
 import Nav from './components/Nav'
 import Jumbotron from './components/Jumbotron';
+import About from './components/About';
 
 function App() {
   return (
     <>
-      <main className="bg-stone-900 h-screen w-screen">
+      <main className="">
         <Nav />
-        <Jumbotron/>
+        <Jumbotron />
+        <About/>
       </main>
     </>
   );
