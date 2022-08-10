@@ -15,11 +15,11 @@ function Nav() {
   return (
     <>
     <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar}/>
-      <header className="flex justify-between">
-        <div className="flex z-30 justify-between items-center w-full m-5">
-            <h1 className="font-readex text-3xl text-orange-400">RP</h1>
-            <Hamburger color="#fb923c" toggled={showSidebar} toggle={setShowSidebar}/>
-        </div>
+      <header className="flex z-30 justify-between items-center sticky top-0 m-5 backdrop-blur-sm">
+          <h1 className="font-readex text-3xl text-orange-400">RP</h1>
+          <Hamburger color="#fb923c" toggled={showSidebar} toggle={setShowSidebar}/>
+      </header>
+      <div className="flex justify-between">
         <nav className="text-stone-400 hidden">
           <ul>
             {sections.map((section) => (
@@ -30,7 +30,7 @@ function Nav() {
           </ul>
           <button>Resume</button>
         </nav>
-      </header>
+      </div>
     </>
   );
 }

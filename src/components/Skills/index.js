@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <section className="mx-5 py-10 h-screen" id="skills">
+    <section className="mx-5 py-16 h-screen" id="skills">
       <div className="flex items-center">
         <h1 className="text-white text-xl font-readex mr-3">Skills</h1>
         <div className="h-px w-full bg-stone-400"></div>
