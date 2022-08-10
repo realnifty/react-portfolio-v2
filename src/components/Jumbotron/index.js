@@ -4,7 +4,7 @@ import React from "react";
 function Jumbotron() {
     return (
         <>
-            <section className="m-5 h-screen">
+            <section className="mx-5 py-10 h-screen">
                 <div className="">
                     <div>
                         <h1 className="font-fig text-orange-400 text-md">Hey! My name's</h1>
