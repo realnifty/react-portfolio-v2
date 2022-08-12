@@ -2,6 +2,7 @@ import Nav from './components/Nav'
 import Jumbotron from './components/Jumbotron';
 import About from './components/About';
 import Skills from './components/Skills'
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Jumbotron />
         <About />
         <Skills />
+        <Projects />
       </main>
     </>
   );
