@@ -7,14 +7,14 @@ function About() {
                 <h1 className="text-white text-xl font-readex mr-3">About</h1>
                 <div className='h-px w-full bg-stone-400'></div>
             </div>
-            <div className='text-stone-400 my-5'>
+            <div className='text-stone-400 my-5 font-fig'>
                 <p>Hello! My name is Rogelio and I like creating web applications.
                     I've always been interested in coding, even when I didn't know much about it.
                     I had always struggled to find a career I could genuinely be interested in and also be proficient at.
                     Being the most tech savvy person in my family, it seems as though this path was always hidden in plain sight.
                     </p>
             </div>
-            <div className="text-stone-400 my-5">
+            <div className="text-stone-400 my-5 font-fig">
                 <p>Although I only started to learn coding seriously in February of 2022, I can remember writing
                     my first lines of HTML and CSS a few years back when I used to run an ebay store.
                     I'd import custom web fonts and write styled &lt;h1&gt; and &lt;p&gt; tags for item descriptions.

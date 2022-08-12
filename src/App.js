@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     <>
-      <main className="">
+      <main id="home" className="">
         <Nav />
         <Jumbotron />
         <About />
