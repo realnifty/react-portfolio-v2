@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-      <main id="home" className="">
+      <main id="home" className="md:px-20">
         <Header/>
         <Nav />
         <Jumbotron />
