@@ -1,4 +1,5 @@
-import Nav from './components/Nav'
+import Header from './components/Header';
+import Nav from './components/Nav';
 import Jumbotron from './components/Jumbotron';
 import About from './components/About';
 import Skills from './components/Skills'
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <main id="home" className="">
+        <Header/>
         <Nav />
         <Jumbotron />
         <About />
