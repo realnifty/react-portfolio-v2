@@ -18,19 +18,19 @@ function Skills() {
   return (
     <section className="mx-5 py-16 h-screen" id="skills">
       <div className="flex items-center">
-        <h1 className="text-white text-xl font-readex mr-3">Skills</h1>
+        <h1 className="text-white text-xl font-readex mr-3 md:text-4xl">Skills</h1>
         <div className="h-px w-full bg-stone-400"></div>
       </div>
-      <div className="text-stone-400 my-5 font-fig">
+      <div className="text-stone-400 my-5 font-fig md:text-lg">
         <p>
           Here are some of the technologies that I'm currently using.
         </p>
       </div>
       <div className="text-stone-400 my-5 flex">
-            <div className="flex flex-wrap items-center justify-between">
+            <div className="flex flex-wrap items-center justify-between md:grid md:grid-cols-6 md:gap-2">
                 {techImages.map((image) => (
-                    <div key={image.url} className="bg-white rounded-full p-3 inline-block my-2 shadow-2xl">
-                        <img src={image.url} alt="" className="h-16"/>
+                    <div key={image.url} className="bg-white rounded-full p-3 md:p-5 inline-block my-2 shadow-2xl md:hover:-translate-y-4 md:ease-in-out md:duration-200">
+                        <img src={image.url} alt="" className="h-16 md:h-20"/>
                     </div>
                 ))}
             </div>  
