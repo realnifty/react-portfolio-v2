@@ -15,7 +15,7 @@ function Contact() {
                     or comments, please feel free to shoot me a message below.
                     I will always reply as soon as possible!
                 </p>
-                <button className="outline outline-1 outline-orange-400 p-2 rounded-md hover:outline-orange-300 ease-in-out duration-100 text-orange-400 w-1/4 mx-auto">Email</button>
+                <a className="text-orange-400 text-6xl hover:text-orange-300 ease-in-out duration-100" href='mailto:rogelioalbertopedraza@gmail.com' target="_blank"><i class="bi bi-envelope"></i></a>
             </div>
         </section>
     )
