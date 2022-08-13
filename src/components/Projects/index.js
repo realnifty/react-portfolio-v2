@@ -16,6 +16,7 @@ function Projects() {
                 <h1 className="text-white text-xl font-readex mr-3">Projects</h1>
                 <div className='h-px w-full bg-stone-400'></div>
             </div>
+            <p className="text-stone-400 my-5 font-fig">Here are some of my most recent works.</p>
             <div className='py-5'>
                 {projects.map((project) => (
                     <div key={project.id} className='text-white bg-stone-800 mb-5 p-5 flex flex-col justify-between shadow-2xl'>
@@ -36,7 +37,7 @@ function Projects() {
                         </div>
                     </div>
                 ))}
-                <a className='block text-lg text-orange-400 text-center font-fig hover:text-orange-300 ease-in-out duration-100' href="https://github.com/realnifty?tab=repositories">See more of my projects here.</a>
+                <p className='block text-lg text-stone-400 text-center font-fig'>See more of my projects <a className='text-orange-400 hover:text-orange-300 ease-in-out duration-100' href="https://github.com/realnifty?tab=repositories">here.</a></p>
             </div>
         </section>
     )
