@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../assets/docs/Rogelio_Pedraza_2022.pdf"
 
 function Sidebar(props) {
     const {showSidebar, setShowSidebar} = props;
@@ -20,7 +21,7 @@ function Sidebar(props) {
                     </li>
                 ))}
                 </ul>
-                <button className="outline outline-1 outline-orange-400 p-2 rounded-md hover:outline-orange-300 ease-in-out duration-100"><a className="text-orange-400">Resume</a></button>
+                <a href={resume} target="_blank" className="outline outline-1 outline-orange-400 p-2 rounded-md hover:outline-orange-300 ease-in-out duration-100 text-orange-400">Resume</a>
             </aside>
         </>
     );
