@@ -6,7 +6,7 @@
 
 A personal webpage created using TailwindCSS and React.js!
 
-[Deployment](https://realnifty-portfolio.herokuapp.com/)
+[Deployment](https://rogeliop.dev/)
 
 ![app screenshot](./images/app-ss.png)
 
