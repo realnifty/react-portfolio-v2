@@ -21,7 +21,7 @@ function Sidebar(props) {
                     </li>
                 ))}
                 </ul>
-                <a href={resume} target="_blank" className="outline outline-1 outline-orange-400 p-2 rounded-md hover:outline-orange-300 ease-in-out duration-100 text-orange-400">Resume</a>
+                <a href={resume} target="_blank" rel='noopener noreferrer' className="outline outline-1 outline-orange-400 p-2 rounded-md hover:outline-orange-300 ease-in-out duration-100 text-orange-400">Resume</a>
             </aside>
         </>
     );
