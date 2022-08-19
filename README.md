@@ -8,6 +8,14 @@ A personal webpage created using TailwindCSS and React.js!
 
 [Deployment](https://realnifty-portfolio.herokuapp.com/)
 
+![app screenshot](./images/app-ss.png)
+
+![app screenshot](./images/app-ss2.png)
+
+![app screenshot](./images/app-ss3.png)
+
+![app screenshot](./images/app-ss4.png)
+
 ## Table of Contents
 
 - [Installation](#installation)
