@@ -18,7 +18,7 @@ function About() {
                 <p>Although I only started to learn coding seriously in February of 2022, I can remember writing
                     my first lines of HTML and CSS a few years back when I used to run an ebay store.
                     I'd import custom web fonts and write styled &lt;h1&gt; and &lt;p&gt; tags for item descriptions.
-                    Today, I can create <span className='text-white'>MERN</span> stack applications suited for almost any function using current in-demand technologies.
+                    Today, I can create <span className='text-white'>MERN</span> stack applications suited for almost any function using the latest technologies.
                 </p>
             </div>
         </section>
