@@ -4,7 +4,7 @@ function Projects() {
 
     const projects = [
         { id: "1", name: "Tweezer", description: "A clone of the social media app Twitter!", repo: "https://github.com/realnifty/tweezer", deployment: "https://tweezer-app.herokuapp.com/", tags: ["Node.js", "GraphQL", "ReactJS"] },
-        { id: "2", name: "Tech Blog", description: "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.", repo: "https://github.com/realnifty/tech-blog", deployment: "https://realnifty-tech-blog.herokuapp.com/", tags: ["MySQL", "Handlebars.js", "Node.js", "MVC"] },
+        { id: "2", name: "Tech Blog", description: "A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.", repo: "https://github.com/realnifty/tech-blog", deployment: "https://realnifty-tech-blog.herokuapp.com/", tags: ["MySQL", "Node.js", "MVC"] },
         { id: "3", name: "Habit Tracker", description: "An app that allows users to track their daily habits in a visually simplified display to improve daily motivation, productivity, and overall mental well-being.", repo: "https://github.com/realnifty/habit-tracker", deployment: "https://habitualtracker.herokuapp.com/", tags: ["Node.js", "Sequelize", "Express.js"] },
         { id: "4", name: "README Generator", description: "A javascript application that takes user input in the command line to create a professional README file.", repo: "https://github.com/realnifty/09-README-generator", deployment: "https://github.com/realnifty/09-README-generator", tags: ["Node.js", "Generator", "Inquirer"] },
     ]
@@ -17,9 +17,9 @@ function Projects() {
                 <div className='h-px w-full bg-stone-400'></div>
             </div>
             <p className="text-stone-400 my-5 font-fig md:text-lg">Here are some of my most recent works.</p>
-            <div className='py-5 md:grid md:grid-cols-2'>
+            <div className='py-5 flex justify-center flex-wrap'>
                 {projects.map((project) => (
-                    <div key={project.id} className='text-white bg-stone-800 mb-5 p-5 flex flex-col justify-between shadow-2xl md:w-80'>
+                    <div key={project.id} className='text-white bg-stone-800 m-5 p-5 flex flex-col justify-between shadow-2xl md:w-80 lg:w-96'>
                         <h1 className='font-readex text-lg'>{project.name}</h1>
                         <p className='font-fig text-stone-400'>{project.description}</p>
                         <ul className="font-fig flex items-center text-orange-400">

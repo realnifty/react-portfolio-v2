@@ -8,14 +8,14 @@ function Contact() {
                 <div className='h-px w-full bg-stone-400'></div>
             </div>
             <div className='flex flex-col text-center'>
-                <h1 className='font-readex text-stone-400 text-4xl mt-5'>Thank you for getting this far!</h1>
+                <h1 className='font-readex text-stone-400 text-4xl mt-5'>Thank so much for reading this far!</h1>
                 <p className='font-fig text-stone-400 my-5 md:text-xl'>
-                    I am actively seeking out new employment opportunities in my career field.
+                    I am actively seeking out employment opportunities in web development.
                     My inbox is always open. If you have any questions
                     or comments, please feel free to shoot me a message below.
-                    I will always reply as soon as possible!
+                    I will always reply as soon as possible.
                 </p>
-                <a className="text-orange-400 text-6xl hover:text-orange-300 ease-in-out duration-100" href='mailto:rogelioalbertopedraza@gmail.com' target="_blank" rel='noopener noreferrer'><i class="bi bi-envelope"></i></a>
+                <a className="text-orange-400 text-6xl hover:text-orange-300 ease-in-out duration-100" href='mailto:rogelioalbertopedraza@gmail.com' target="_blank" rel="noreferrer"><i className="bi bi-envelope"></i></a>
             </div>
         </section>
     )

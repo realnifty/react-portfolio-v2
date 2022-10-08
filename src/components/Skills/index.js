@@ -26,7 +26,7 @@ function Skills() {
           Here are some of the technologies that I'm currently using.
         </p>
       </div>
-      <div className="text-stone-400 my-5 flex">
+      <div className="text-stone-400 my-5 flex justify-center">
             <div className="flex flex-wrap items-center justify-between md:grid md:grid-cols-6 md:gap-2">
                 {techImages.map((image) => (
                     <div key={image.url} className="bg-white rounded-full p-3 md:p-5 inline-block my-2 shadow-2xl md:hover:-translate-y-4 md:ease-in-out md:duration-200">
@@ -34,6 +34,21 @@ function Skills() {
                     </div>
                 ))}
             </div>  
+      </div>
+      <div className="text-stone-400 my-5 font-fig md:text-lg">
+        <p className="py-2">Other concepts or technologies I am familiar with:</p>
+        <ol className="text-orange-400 text-sm md:text-lg">
+          <li>Git Bash</li>
+          <li>Visual Studio Code</li>
+          <li>Agile Development</li>
+          <li>Figma</li>
+          <li>TDD</li>
+          <li>RESTful APIs</li>
+          <li>OOP</li>
+          <li>MVC/MVVM</li>
+          <li>Redux</li>
+          <li>Complexity & Memory</li>
+        </ol>
       </div>
     </section>
   );
