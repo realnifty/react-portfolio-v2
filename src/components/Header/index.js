@@ -19,7 +19,7 @@ function Header() {
                   <a href={section.link}>{section.name}</a>
                 </li>
               ))}
-                <a href={resume} target="_blank" className="outline outline-1 outline-orange-400 p-2 rounded-md hover:outline-orange-300 ease-in-out duration-100 text-orange-400">Resume</a>
+                <a href={resume} target="_blank" rel="noreferrer" className="outline outline-1 outline-orange-400 p-2 rounded-md hover:outline-orange-300 ease-in-out duration-100 text-orange-400">Resume</a>
                 </ul>
         </header>
       </>
