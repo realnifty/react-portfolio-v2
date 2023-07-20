@@ -47,7 +47,6 @@ function Skills() {
           <li>OOP</li>
           <li>MVC/MVVM</li>
           <li>Redux</li>
-          <li>Complexity & Memory</li>
         </ol>
       </div>
     </section>
