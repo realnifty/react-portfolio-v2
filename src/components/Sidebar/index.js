@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/docs/RAP-22.pdf"
+import resume from "../../assets/docs/RAP_23.pdf"
 
 function Sidebar(props) {
     const {showSidebar, setShowSidebar} = props;
