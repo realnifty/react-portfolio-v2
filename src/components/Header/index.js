@@ -1,6 +1,6 @@
 import React from 'react';
 
-import resume from "../../assets/docs/RAP_23.pdf"
+import resume from "../../assets/docs/RAP-24.pdf"
 
 function Header() {
     const sections = [
