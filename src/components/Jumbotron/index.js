@@ -30,7 +30,7 @@ function Jumbotron() {
 							learned so far.
 						</h1>
 					</div>
-					<img src={me} alt='picture of rogelio pedraza' className='me my-7'/>
+					<img src={me} alt='rogelio pedraza' className='me my-7'/>
 				</div>
 			</section>
 		</>
